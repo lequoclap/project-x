@@ -1,4 +1,4 @@
 project-x
 =========
 
-I made this repository for test
+I made this repository for testing
