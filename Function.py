@@ -28,7 +28,7 @@ print(aList)
 # Function definition is here
 def changeme( mylist ):
    "This changes a passed list into this function"
-   mylist = [3,2,4,32,13]; # This would assig new reference in mylist
+   mylist = [1,65,4,32,13]; # This would assig new reference in mylist
    print "Values inside the function: ", mylist
    return
 
