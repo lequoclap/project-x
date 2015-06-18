@@ -36,3 +36,37 @@ def changeme( mylist ):
 mylist = [10,20,30];
 changeme( mylist );
 print "Values outside the function: ", mylist
+
+
+def printme( str = "kule kelu" ):
+   "This prints a passed string into this function"
+   print str;
+   return;
+
+# Now you can call printme function
+printme( str = "My string")
+printme("My string")
+printme()
+
+
+# Function definition is here
+def printinfo( arg1, *arg2):
+   "This prints a variable passed arguments"
+   print "Output is: "
+   print arg1
+   for var in arg2:
+       print var, "arg2"
+   return;
+
+# Now you can call printinfo function
+printinfo( 10 );
+printinfo( "hello","ohayou","merci");
+
+
+
+
+
+
+
+
+
