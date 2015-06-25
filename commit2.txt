@@ -1,3 +1,1 @@
-This is 2nd commit
-asdasd
-sadassdghhh
+hey hey Python! Im here with you!
